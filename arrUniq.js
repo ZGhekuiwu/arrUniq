@@ -41,7 +41,7 @@ Array.prototype.arrUniq = function() {
   		if(temp == typeArr['arr']) arrVal.arrUniq();//如果数组中有数组，则递归
 		if (arrClone.indexOf(arrVal) != arrClone.lastIndexOf(arrVal)) {//如果有重复的，则去重
 			array.splice(i,1);
-    		arrClone.splice(i, 1);
+    			arrClone.splice(i, 1);
   		}
   		else{
   			if(Object.prototype.toString.call(array[i]) != temp){
