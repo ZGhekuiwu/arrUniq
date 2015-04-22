@@ -3,7 +3,7 @@
  * @fileoverview array unique
  * @type string,number,boolean,null,undefined and array,object,function
  */
-Array.prototype.arrUniq = function uniq() {
+Array.prototype.arrUniq = function() {
 	var temp,arrVal, 
 		array = this,
 		arrClone = array.concat(),//克隆数组
