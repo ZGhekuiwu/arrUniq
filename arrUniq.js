@@ -13,7 +13,7 @@ Array.prototype.arrUniq = function() {
 			'arr' : '[object Array]',
 			'num' : '[object Number]'
 	    },
-		ent = /(\u3000|\s|\t)*(\n)+(\u3000|\s|\t)*/gi;//空白字符正则表达式
+		ent = /(\u3000|\s|\t)*(\n)+(\u3000|\s|\t)*/gi;//空白字符正则
 
 	//把数组中的object和function转换为字符串形式
 	for(var i = arrClone.length; i--;){
