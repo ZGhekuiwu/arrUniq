@@ -12,7 +12,7 @@ Array.prototype.arrUniq = function() {
 			'fun' : '[object Function]',
 			'arr' : '[object Array]',
 			'num' : '[object Number]'
-	    },
+	    	},
 		ent = /(\u3000|\s|\t)*(\n)+(\u3000|\s|\t)*/gi;//空白字符正则
 
 	//把数组中的object和function转换为字符串形式
