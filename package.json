@@ -1,0 +1,26 @@
+{
+  "name": "arruniq",
+  "version": "1.0.0",
+  "description": "## 去重 - 基本类型：`string,number,boolean,null,undefined` - 复合类型`array,object,function`",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeekFE/arrUniq.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GeekFE/arrUniq/issues"
+  },
+  "homepage": "https://github.com/GeekFE/arrUniq#readme",
+  "dependencies": {
+    "chai": "^4.0.2",
+    "mocha": "^3.4.2"
+  }
+}

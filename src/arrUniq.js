@@ -4,7 +4,7 @@
  * @type string,number,boolean,null,undefined and array,object,function
  */
 Array.prototype.arrUniq = function() {
-	var temp,arrVal, 
+	var temp,arrVal,
 		array = this,
 		arrClone = array.concat(),//克隆数组
 		typeArr = {//数组原型
@@ -19,7 +19,7 @@ Array.prototype.arrUniq = function() {
 	for(var i = arrClone.length; i--;){
 		arrVal = arrClone[i];
 		temp = Object.prototype.toString.call(arrVal);
-		
+
 		if(temp == typeArr['num'] && arrVal.toString() == 'NaN'){
 			arrClone[i] = arrVal.toString();
 		}
